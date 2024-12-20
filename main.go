@@ -21,9 +21,9 @@ import (
 type Note struct {
 	Time  int
 	Key   string
-	X     int         // Replace with appropriate type if not int
-	Y     int         // Replace with appropriate type if not int
-	Style tcell.Style // Replace with appropriate type if not string
+	X     int
+	Y     int
+	Style tcell.Style
 }
 
 var (
